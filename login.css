@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+.login-form h1 {
+    margin-bottom: 20px;
+    color: #232f3e;
+}
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.login-form button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #e68a00;
+}
+.login-form p {
+    font-size: 12px;
+    color: #555;
+}
+.login-form a {
+    color: #0066c0;
+    text-decoration: none;
+}
+.login-form a:hover {
+    text-decoration: underline;
+}
+.signup {
+    margin-top: 20px;
+}
+.signup p {
+    margin-bottom: 10px;
+    color: #555;
+}
+.signup a {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.signup a:hover {
+    background-color: #1a1f2b;
+}
